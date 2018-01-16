@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Adagio",
+    "gain": 0.02
+  },
+  {
+    "name": "Alpha",
+    "gain": 0.02
+  },
+  {
+    "name": "Ardan",
+    "gain": 0.033
+  },
+  {
+    "name": "Baptiste",
+    "gain": 0.033
+  },
+  {
+    "name": "Baron",
+    "gain": 0.02
+  },
+  {
+    "name": "Blackfeather",
+    "gain": 0.02
+  },
+  {
+    "name": "Catherine",
+    "gain": 0.033
+  },
+  {
+    "name": "Celeste",
+    "gain": 0.0125
+  },
+  {
+    "name": "Churnwalker",
+    "gain": 0.02
+  },
+  {
+    "name": "Flicker",
+    "gain": 0.033
+  },
+  {
+    "name": "Fortress",
+    "gain": 0.04
+  },
+  {
+    "name": "Glaive",
+    "gain": 0.012
+  },
+  {
+    "name": "Grace",
+    "gain": 0.033
+  },
+  {
+    "name": "Grumpjaw",
+    "gain": 0.012
+  },
+  {
+    "name": "Gwen",
+    "gain": 0.033
+  },
+  {
+    "name": "Idris",
+    "gain": 0.033
+  },
+  {
+    "name": "Joule",
+    "gain": 0.012
+  },
+  {
+    "name": "Kestrel",
+    "gain": 0.033
+  },
+  {
+    "name": "Koshka",
+    "gain": 0.008
+  },
+  {
+    "name": "Krul",
+    "gain": 0.033
+  },
+  {
+    "name": "Lance",
+    "gain": 0
+  },
+  {
+    "name": "Lorelai",
+    "gain": 0.025
+  },
+  {
+    "name": "Lyra",
+    "gain": 0.033
+  },
+  {
+    "name": "Ozo",
+    "gain": 0.033
+  },
+  {
+    "name": "Petal",
+    "gain": 0.033
+  },
+  {
+    "name": "Phinn",
+    "gain": 0.012
+  },
+  {
+    "name": "Reim",
+    "gain": 0.033
+  },
+  {
+    "name": "Reza",
+    "gain": 0.0227
+  },
+  {
+    "name": "Ringo",
+    "gain": 0.033
+  },
+  {
+    "name": "Rona",
+    "gain": 0.012
+  },
+  {
+    "name": "Samuel",
+    "gain": 0.027
+  },
+  {
+    "name": "SAW",
+    "gain": 0.01
+  },
+  {
+    "name": "Skaarf",
+    "gain": 0.02
+  },
+  {
+    "name": "Skye",
+    "gain": 0.033
+  },
+  {
+    "name": "Taka",
+    "gain": 0.033
+  },
+  {
+    "name": "Varya",
+    "gain": 0.0136
+  },
+  {
+    "name": "Vox",
+    "gain": 0.033
+  }
+]
