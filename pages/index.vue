@@ -4,11 +4,13 @@
       <div v-for="hero in heroes"
            class="column is-one-third-mobile is-3-tablet is-2-desktop"
            :key="hero.name">
-        <div class="box">
-          <img :src="getHeroImagePath(hero)" :alt="hero.name" >
-          <div class="hero-name">{{ hero.name }}</div>
-          <div>{{ hero.gain }}</div>
-        </div>
+        <router-link :to="`/${hero.name}/`">
+          <div class="box">
+            <img :src="getHeroImagePath(hero)" :alt="hero.name" >
+            <div class="hero-name">{{ hero.name }}</div>
+            <div>{{ hero.gain }}</div>
+          </div>
+        </router-link>
       </div>
     </div>
   </section>
