@@ -72,6 +72,15 @@ export default {
     commonCards (state) {
       return state.filter(card => card.rarity === 0);
     },
+    rareCards (state) {
+      return state.filter(card => card.rarity === 1);
+    },
+    epicCards (state) {
+      return state.filter(card => card.rarity === 2);
+    },
+    legendaryCards (state) {
+      return state.filter(card => card.rarity === 3);
+    },
     getAllEssence (state) {
       return state.reduce((sum, card) => sum + card.count * card.createCost, 0);
     }
