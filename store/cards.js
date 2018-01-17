@@ -47,12 +47,12 @@ const getDefaultCards = () => {
     new Card(6, "奇妙なまでに黒い物質", 0),
     new Card(7, "ベイパーウェア", 0),
     new Card(8, "呪いの印", 0),
-    new Card(9, "aa", 1),
-    new Card(10, "aa", 1),
-    new Card(11, "aa", 2),
-    new Card(12, "aa", 2),
-    new Card(13, "aa", 3),
-    new Card(14, "aa", 3)
+    new Card(9, "ガイライナー", 1),
+    new Card(10, "ウィザーフェザー", 1),
+    new Card(11, "フォン・ハイデン博士の帽子", 2),
+    new Card(12, "黒き殺意の印", 2),
+    new Card(13, "闇の乗客", 3),
+    new Card(14, "世界の終わりの詩", 3)
   ];
 };
 

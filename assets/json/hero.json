@@ -1,7 +1,19 @@
 [
   {
     "name": "Adagio",
-    "gain": 0.02
+    "gain": 0.02,
+    "skins": [
+      {
+        "name": "闇の覇者・アダージオ(R)",
+        "cards": [9, 10],
+        "type": "normal"
+      },
+      {
+        "name": "闇の覇者・アダージオ(L)",
+        "cards": [9, 10, 11, 12, 13, 14],
+        "type": "normal"
+      }
+    ]
   },
   {
     "name": "Alpha",

@@ -1,9 +1,9 @@
 <template>
   <section>
-    <router-link to="/">
-      homeへ
-    </router-link>
-    {{ hero }}
+    <h2>{{ hero.name }}</h2>
+    <pre>
+      {{ hero }}
+    </pre>
   </section>
 </template>
 
