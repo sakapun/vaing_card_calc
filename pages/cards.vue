@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{ getAllEssence }}
     <h2 class="h2">コモン</h2>
     <div class="box"
          v-for="card in commonCards"
@@ -20,7 +21,10 @@ import { mapGetters, mapMutations } from "vuex";
 
 export default {
   name: "Cards",
-  computed: mapGetters("cards", ["commonCards"]),
+  computed: mapGetters("cards", [
+    "commonCards",
+    "getAllEssence"
+  ]),
   methods: {
     changeCount ({target}, id) {
       this.updateCount({id, data: target.value});
