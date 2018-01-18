@@ -6,6 +6,7 @@
           <span class="fa fa-language">ヒーロー一覧</span>
         </router-link>
         <router-link class="navbar-item" to="/cards">カード一覧</router-link>
+        <router-link class="navbar-item" to="/calc">簡易計算</router-link>
       </div>
     </nav>
     <div class="container">
