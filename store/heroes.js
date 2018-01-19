@@ -9,7 +9,7 @@ export default {
         epicCardCount: 0,
         legendaryCardCount: 0
       })),
-      selectedHeroName: "Adagio"
+      selectedHeroName: "Blackfeather"
     };
   },
 
@@ -33,6 +33,10 @@ export default {
     updateLegendaryCount (state, value) {
       const hero = state.heroes.find(hero => hero.name === state.selectedHeroName);
       hero.legendaryCardCount = value;
+    },
+
+    setHeroName (state, value) {
+      state.selectedHeroName = value;
     }
   }
 };

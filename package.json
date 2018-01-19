@@ -13,8 +13,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.2",
     "@nuxtjs/bulma": "^1.1.0",
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.0.0-rc11",
+    "vuex-persistedstate": "^2.4.2"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

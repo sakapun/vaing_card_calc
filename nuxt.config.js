@@ -41,6 +41,8 @@ module.exports = {
     }
   },
   css: [
+    "@fortawesome/fontawesome-free-webfonts/css/fontawesome.css",
+    '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
   ],
   modules: [
     "@nuxtjs/bulma"

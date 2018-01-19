@@ -1,6 +1,23 @@
 <template>
   <section>
     <h1 class="title">Blueprintシミュレータ</h1>
+
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <img :src="`/images/hero/${selectedHero.name}.png`">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div>
+          <strong class="is-size-4">{{ selectedHero.name }}</strong>
+          <router-link to="/hero-select">
+            <span class="is-size-7">変更する</span>
+          </router-link>
+        </div>
+      </div>
+    </article>
+
     <h2 class="subtitle">カード入力</h2>
     <div class="field is-4">
       <label class="label">レア</label>
