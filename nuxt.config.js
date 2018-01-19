@@ -44,5 +44,8 @@ module.exports = {
   ],
   modules: [
     "@nuxtjs/bulma"
+  ],
+  plugins: [
+    { src: "~plugins/persistedstate.js", ssr: false }
   ]
 };
