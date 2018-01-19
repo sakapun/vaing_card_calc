@@ -1,34 +1,29 @@
 <template>
   <section>
-    <h1 class="h1">カード入力</h1>
-    <div class="field">
+    <h1 class="title">Blueprintシミュレータ</h1>
+    <h2 class="subtitle">カード入力</h2>
+    <div class="field is-4">
       <label class="label">レア</label>
       <div class="control">
         <input class="input"
                type="number"
-               :value="rareCardCount"
-               @input="updateRare"
-               placeholder="Text input">
+               v-model.number="rareCardCount">
       </div>
     </div>
-    <div class="field">
+    <div class="field is-4">
       <label class="label">エピック</label>
       <div class="control">
         <input class="input"
                type="number"
-               :value="epicCardCount"
-               @input="updateEpic"
-               placeholder="Text input">
+               v-model.number="epicCardCount">
       </div>
     </div>
-    <div class="field">
+    <div class="field is-4">
       <label class="label">レジェンダリー</label>
       <div class="control">
         <input class="input"
                type="number"
-               :value="legendaryCardCount"
-               @input="updateLegendary"
-               placeholder="Text input">
+               v-model.number="legendaryCardCount">
       </div>
     </div>
     <div class="box">
@@ -100,17 +95,6 @@ export default {
         return `満たしています(${essence})`;
       }
       return need - essence;
-    }
-  },
-  methods: {
-    updateRare ({target}) {
-      this.rareCardCount = Number(target.value);
-    },
-    updateEpic ({target}) {
-      this.epicCardCount = Number(target.value);
-    },
-    updateLegendary ({target}) {
-      this.legendaryCardCount = Number(target.value);
     }
   }
 };
