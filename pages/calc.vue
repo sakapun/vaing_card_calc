@@ -53,13 +53,12 @@
 </template>
 
 <script>
+import { mapGetters, mapMutations } from "vuex";
+
 export default {
   name: "Calc",
   data () {
     return {
-      rareCardCount: 0,
-      epicCardCount: 0,
-      legendaryCardCount: 0,
       rareCardPrice: 30,
       epicCardPrice: 120,
       legendaryCardPrice: 360,
@@ -69,6 +68,34 @@ export default {
     };
   },
   computed: {
+    ...mapGetters("heroes", [
+      "selectedHero"
+    ]),
+    rareCardCount: {
+      get () {
+        return this.selectedHero.rareCardCount;
+      },
+      set (value) {
+        this.updateRareCount(value);
+      }
+    },
+    epicCardCount: {
+      get () {
+        return this.selectedHero.epicCardCount;
+      },
+      set (value) {
+        this.updateEpicCount(value);
+      }
+    },
+    legendaryCardCount: {
+      get () {
+        return this.selectedHero.legendaryCardCount;
+      },
+      set (value) {
+        this.updateLegendaryCount(value);
+      }
+    },
+
     rareEssence () { return this.rareCardCount * this.rareCardPrice; },
     epicEssence () { return this.epicCardCount * this.epicCardPrice; },
     legendaryEssence () { return this.legendaryCardCount * this.legendaryCardPrice; },
@@ -96,7 +123,12 @@ export default {
       }
       return need - essence;
     }
-  }
+  },
+  methods: mapMutations("heroes", [
+    "updateRareCount",
+    "updateEpicCount",
+    "updateLegendaryCount"
+  ])
 };
 </script>
 
