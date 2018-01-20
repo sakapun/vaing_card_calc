@@ -11,39 +11,66 @@
       <div class="media-content">
         <div>
           <strong class="is-size-4">{{ selectedHero.name }}</strong>
-          <router-link to="/hero-select">
-            <span class="is-size-7">変更する</span>
-          </router-link>
         </div>
       </div>
     </article>
+    <div class="hero-select-button">
+      <router-link to="/hero-select">
+        <button class="button">ヒーローを変更する</button>
+      </router-link>
+    </div>
 
-    <h2 class="subtitle">カード入力</h2>
-    <div class="field is-4">
+    <div class="content-block">
+      <h2 class="title">カード枚数入力</h2>
+
       <label class="label">レア</label>
-      <div class="control">
-        <input class="input"
-               type="number"
-               v-model.number="rareCardCount">
+      <div class="field is-4 has-addons">
+        <div class="control">
+          <button class="button" @click="updateRareCount(rareCardCount - 1)">－</button>
+        </div>
+        <div class="control">
+          <input class="input"
+                 type="number"
+                 v-model.number="rareCardCount">
+        </div>
+        <div class="control">
+          <button class="button" @click="updateRareCount(rareCardCount + 1)">＋</button>
+        </div>
       </div>
-    </div>
-    <div class="field is-4">
+
       <label class="label">エピック</label>
-      <div class="control">
-        <input class="input"
-               type="number"
-               v-model.number="epicCardCount">
+      <div class="field is-4 has-addons">
+        <div class="control">
+          <button class="button" @click="updateEpicCount(epicCardCount - 1)">－</button>
+        </div>
+        <div class="control">
+          <input class="input"
+                 type="number"
+                 v-model.number="epicCardCount">
+        </div>
+        <div class="control">
+          <button class="button" @click="updateEpicCount(epicCardCount + 1)">＋</button>
+        </div>
       </div>
-    </div>
-    <div class="field is-4">
+
       <label class="label">レジェンダリー</label>
-      <div class="control">
-        <input class="input"
-               type="number"
-               v-model.number="legendaryCardCount">
+      <div class="field is-4 has-addons">
+        <div class="control">
+          <button class="button" @click="updateLegendaryCount(legendaryCardCount - 1)">－</button>
+        </div>
+        <div class="control">
+          <input class="input"
+                 type="number"
+                 v-model.number="legendaryCardCount">
+        </div>
+        <div class="control">
+          <button class="button" @click="updateLegendaryCount(legendaryCardCount + 1)">＋</button>
+        </div>
       </div>
     </div>
-    <div class="box">
+
+    <div class="content-block">
+      <h1 class="title">必要エッセンス</h1>
       <div class="columns">
         <div class="column is-one-third">
           <div>レアスキン</div>
@@ -150,5 +177,11 @@ export default {
 </script>
 
 <style scoped>
+.hero-select-button {
+  margin-top: 1rem;
+}
 
+.content-block {
+  margin-top: 2rem;
+}
 </style>

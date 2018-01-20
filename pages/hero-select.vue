@@ -1,15 +1,20 @@
 <template>
   <section class="container">
-    <div class="columns is-mobile is-multiline">
-      <div v-for="hero in heroes"
-           class="column is-half-mobile is-3-tablet is-2-desktop"
-           :key="hero.name">
-        <router-link to="/calc/" @click.native="commitChangeHero(hero)">
-          <div class="box">
-            <img :src="`/images/hero/${hero.name}.png`" :alt="hero.name" >
-            <div class="hero-name">{{ hero.name }}</div>
-          </div>
-        </router-link>
+    <router-link to="/calc/">
+      戻る
+    </router-link>
+    <div class="content-block">
+      <div class="columns is-mobile is-multiline">
+        <div v-for="hero in heroes"
+             class="column is-half-mobile is-3-tablet is-2-desktop"
+             :key="hero.name">
+          <router-link to="/calc/" @click.native="commitChangeHero(hero)">
+            <div class="box">
+              <img :src="`/images/hero/${hero.name}.png`" :alt="hero.name" >
+              <div class="hero-name">{{ hero.name }}</div>
+            </div>
+          </router-link>
+        </div>
       </div>
     </div>
   </section>
@@ -28,7 +33,6 @@ export default {
   },
   methods: {
     commitChangeHero (hero) {
-      console.log(this.$store.commit);
       this.$store.commit("heroes/setHeroName", hero.name);
     }
   }
@@ -36,5 +40,7 @@ export default {
 </script>
 
 <style scoped>
-
+.content-block {
+  margin-top: 2rem;
+}
 </style>
