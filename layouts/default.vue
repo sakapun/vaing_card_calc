@@ -2,11 +2,7 @@
   <div>
     <nav class="navbar">
       <div class="navbar-menu is-active">
-        <router-link class="navbar-item" to="/">
-          <span>ヒーロー一覧</span>
-        </router-link>
-        <router-link class="navbar-item" to="/cards">カード一覧</router-link>
-        <router-link class="navbar-item" to="/calc">簡易計算</router-link>
+        <div class="navbar-item">VG Blueprintシミュレータ</div>
       </div>
     </nav>
     <div class="container">

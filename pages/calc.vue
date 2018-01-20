@@ -1,7 +1,5 @@
 <template>
   <section>
-    <h1 class="title">Blueprintシミュレータ</h1>
-
     <article class="media">
       <figure class="media-left">
         <p class="image is-64x64">
