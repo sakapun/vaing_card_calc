@@ -1,8 +1,10 @@
 <template>
   <div>
-    <nav class="navbar">
-      <div class="navbar-menu is-active">
-        <div class="navbar-item">VG Blueprintシミュレータ</div>
+    <nav class="navbar is-light">
+      <div class="navbar-brand">
+        <div class="navbar-item">
+          <span>VG Blueprintシミュレータ</span>
+        </div>
       </div>
     </nav>
     <div class="container">

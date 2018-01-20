@@ -9,7 +9,7 @@ export default {
         epicCardCount: 0,
         legendaryCardCount: 0
       })),
-      selectedHeroName: "Blackfeather"
+      selectedHeroName: "Adagio"
     };
   },
 
