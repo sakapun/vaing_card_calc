@@ -3,7 +3,7 @@
     <nav class="navbar is-light">
       <div class="navbar-brand">
         <div class="navbar-item">
-          <span>VG Blueprintシミュレータ</span>
+          <span>VG Blueprint Simulator</span>
         </div>
       </div>
     </nav>
