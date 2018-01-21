@@ -46,7 +46,7 @@ module.exports = {
   ],
   modules: [
     "@nuxtjs/bulma",
-    "@nuxtjs/google-tag-manager", { id: "GTM-XXXXXXX" }
+    ["@nuxtjs/google-tag-manager", { id: "GTM-XXXXXXX" }]
   ],
   plugins: [
     { src: "~plugins/persistedstate.js", ssr: false }
