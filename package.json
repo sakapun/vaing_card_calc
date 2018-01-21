@@ -1,12 +1,13 @@
 {
-  "name": "cloudbingo",
+  "name": "BlueprintSimulator",
   "version": "1.0.0",
-  "description": "cloud bingo",
+  "description": "Vainglory Blueprint Simulator",
   "author": "sakapun <sakapun5th@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "deploy": "nuxt generate && push-dir --dir=dist --branch=release --cleanup",
+    "deploy:only": "push-dir --dir=dist --branch=release --cleanup",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",

@@ -3,14 +3,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "cloudbingo",
+    title: "Blueprint Simulator for Vainglory",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "cloud bingo" }
+      { hid: "description", name: "description", content: "Blueprint Simulator for Vainglory" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+      { rel: "icon", type: "image/x-icon", href: "/favicon.png" }
     ]
   },
   /*
@@ -46,7 +46,7 @@ module.exports = {
   ],
   modules: [
     "@nuxtjs/bulma",
-    ["@nuxtjs/google-tag-manager", { id: "GTM-XXXXXXX" }]
+    ["@nuxtjs/google-tag-manager", { id: "GTM-N6SSH39" }]
   ],
   plugins: [
     { src: "~plugins/persistedstate.js", ssr: false }
