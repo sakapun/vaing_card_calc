@@ -45,7 +45,8 @@ module.exports = {
     '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
   ],
   modules: [
-    "@nuxtjs/bulma"
+    "@nuxtjs/bulma",
+    "@nuxtjs/google-tag-manager", { id: "GTM-XXXXXXX" }
   ],
   plugins: [
     { src: "~plugins/persistedstate.js", ssr: false }
