@@ -9,9 +9,9 @@
              class="column is-4-mobile is-3-tablet is-2-desktop"
              :key="hero.name">
           <router-link to="/" @click.native="commitChangeHero(hero)">
-            <div class="box" :class="{'is-selected': selectedHeroName === hero.name}">
+            <div class="box has-text-centered" :class="{'is-selected': selectedHeroName === hero.name}">
               <img :src="`/images/hero/${hero.name}.png`" :alt="hero.name" >
-              <div class="hero-name">{{ hero.name }}</div>
+              <div class="hero-name is-size-7">{{ hero.name }}</div>
             </div>
           </router-link>
         </div>
@@ -45,8 +45,12 @@ export default {
   margin-top: 2rem;
 }
 
-.box.is-selected {
+.is-selected {
   background: #a2a2a2;
   color: white;
+}
+
+.box {
+  padding: 0.4rem;
 }
 </style>
