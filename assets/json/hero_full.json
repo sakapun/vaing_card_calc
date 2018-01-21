@@ -1,7 +1,19 @@
 [
   {
     "name": "Adagio",
-    "gain": 0.02
+    "gain": 0.02,
+    "skins": [
+      {
+        "name": "闇の覇者・アダージオ(R)",
+        "cards": [9, 10],
+        "type": "normal"
+      },
+      {
+        "name": "闇の覇者・アダージオ(L)",
+        "cards": [9, 10, 11, 12, 13, 14],
+        "type": "normal"
+      }
+    ]
   },
   {
     "name": "Alpha",
@@ -10,6 +22,14 @@
   {
     "name": "Ardan",
     "gain": 0.033
+  },
+  {
+    "name": "Baptiste",
+    "gain": 0.033
+  },
+  {
+    "name": "Baron",
+    "gain": 0.02
   },
   {
     "name": "Blackfeather",
@@ -24,6 +44,14 @@
     "gain": 0.0125
   },
   {
+    "name": "Churnwalker",
+    "gain": 0.02
+  },
+  {
+    "name": "Flicker",
+    "gain": 0.033
+  },
+  {
     "name": "Fortress",
     "gain": 0.04
   },
@@ -32,8 +60,28 @@
     "gain": 0.012
   },
   {
+    "name": "Grace",
+    "gain": 0.033
+  },
+  {
+    "name": "Grumpjaw",
+    "gain": 0.012
+  },
+  {
+    "name": "Gwen",
+    "gain": 0.033
+  },
+  {
+    "name": "Idris",
+    "gain": 0.033
+  },
+  {
     "name": "Joule",
     "gain": 0.012
+  },
+  {
+    "name": "Kestrel",
+    "gain": 0.033
   },
   {
     "name": "Koshka",
@@ -42,6 +90,14 @@
   {
     "name": "Krul",
     "gain": 0.033
+  },
+  {
+    "name": "Lance",
+    "gain": 0
+  },
+  {
+    "name": "Lorelai",
+    "gain": 0.025
   },
   {
     "name": "Lyra",
@@ -64,12 +120,20 @@
     "gain": 0.033
   },
   {
+    "name": "Reza",
+    "gain": 0.0227
+  },
+  {
     "name": "Ringo",
     "gain": 0.033
   },
   {
     "name": "Rona",
     "gain": 0.012
+  },
+  {
+    "name": "Samuel",
+    "gain": 0.027
   },
   {
     "name": "SAW",
@@ -86,6 +150,10 @@
   {
     "name": "Taka",
     "gain": 0.033
+  },
+  {
+    "name": "Varya",
+    "gain": 0.0136
   },
   {
     "name": "Vox",
