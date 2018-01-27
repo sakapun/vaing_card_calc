@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <router-link to="/">
-      戻る
+      back to home
     </router-link>
     <div class="content-block">
       <div class="columns is-mobile is-multiline">
